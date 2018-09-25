@@ -73,8 +73,13 @@ public class Colosseum {
      */
     public static Pokemon buildPokemon() {
         Pokemon tempPokemon = new Pokemon();
+        Scanner x = new Scanner(System.in);
+        System.out.println("Please name your Pokemon: ");
+        String pokeName = x.nextLine();
+        System.out.print("Your Pokemon is: " + pokeName);
         return tempPokemon;
     }
+
 
     /**
      * Prints who is ahead.
